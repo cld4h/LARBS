@@ -224,7 +224,7 @@ sudo -u "$name" mkdir -p "/home/$name/.cache/zsh/"
 # dbus UUID must be generated for Artix runit.
 dbus-uuidgen > /var/lib/dbus/machine-id
 
-# Tap to click
+# Tap to click and NaturalScrollling
 [ ! -f /etc/X11/xorg.conf.d/40-libinput.conf ] && printf 'Section "InputClass"
         Identifier "libinput touchpad catchall"
         MatchIsTouchpad "on"
@@ -232,6 +232,7 @@ dbus-uuidgen > /var/lib/dbus/machine-id
         Driver "libinput"
 	# Enable left mouse button by tapping
 	Option "Tapping" "on"
+	Option "NaturalScrolling" "true"
 EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 
 # Fix fluidsynth/pulseaudio issue.
