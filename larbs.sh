@@ -253,6 +253,16 @@ echo "export \$(dbus-launch)" > /etc/profile.d/dbus.sh
 	Option "NaturalScrolling" "true"
 EndSection' > /etc/X11/xorg.conf.d/40-libinput.conf
 
+# Environment variables for fcitx5 input method
+grep -q "GTK_IM_MODULE" /etc/environment || echo "GTK_IM_MODULE=fcitx5" >> /etc/environment
+grep -q "QT_IM_MODULE" /etc/environment || echo "QT_IM_MODULE=fcitx5" >> /etc/environment
+grep -q "XMODIFIERS" /etc/environment || echo "XMODIFIERS=@im=fcitx5" >> /etc/environment
+grep -q "INPUT_METHOD" /etc/environment || echo "INPUT_METHOD=fcitx5" >> /etc/environment
+# For some SDL2 game
+# grep -q "SDL_IM_MODULE" /etc/environment || echo "SDL_IM_MODULE=fcitx" >> /etc/environment
+# For kitty
+# grep -q "GLFW_IM_MODULE" /etc/environment || echo "GLFW_IM_MODULE=ibus" >> /etc/environment
+
 # Fix fluidsynth/pulseaudio issue.
 grep -q "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" /etc/conf.d/fluidsynth ||
 	echo "OTHER_OPTS='-a pulseaudio -m alsa_seq -r 48000'" >> /etc/conf.d/fluidsynth
