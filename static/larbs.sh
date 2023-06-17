@@ -375,6 +375,11 @@ Section "InputClass"
 	Option "Rotate" "HALF"
 	Option "Button2" "pan"
 EndSection' >/etc/X11/xorg.conf.d/40-libinput.conf
+
+# All this below to get Librewolf installed with add-ons and non-bad settings.
+
+whiptail --infobox "Setting browser privacy settings and add-ons..." 7 60
+
 browserdir="/home/$name/.librewolf"
 profilesini="$browserdir/profiles.ini"
 
