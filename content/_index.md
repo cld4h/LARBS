@@ -43,25 +43,25 @@ Note that the LARBS scripts will not partition any drives or wipe anything, **bu
 
 Here are the main programs, all with extra information here:
 
-- [dwm](/dwm) -- the main graphical environment
-- [st](/st) -- the terminal
-- [dwmblocks](/dwmblocks) -- statusbar
+- [dwm](dwm) -- the main graphical environment
+- [st](st) -- the terminal
+- [dwmblocks](dwmblocks) -- statusbar
 - [zsh](zsh) -- the shell
 - [Librewolf](librewolf) with the Arkenfox.js -- browser
-- [lf](/lf) -- file manager
-- [neomutt](/neomutt) -- email
-- [abook](/abook) -- extensible address book
-- [ncmpcpp](/ncmpcpp) -- music
+- [lf](lf) -- file manager
+- [neomutt](neomutt) -- email
+- [abook](abook) -- extensible address book
+- [ncmpcpp](ncmpcpp) -- music
 - [newsboat](newsboat) -- RSS feeds and news
 - [htop](htop) -- to look cool in screencaps... err... system monitor
-- [mpv](/mpv) -- video player
+- [mpv](mpv) -- video player
 - sxiv -- image viewer
 
 ## Learning the system is fun and easy!
 
 You can figure out about the system in a lot of different ways:
 
-- LARBS has a built-in readme document and list of all the many efficient keybindings that you can read [here](/larbs-dwm.pdf). By pressing <kbd>super + F1</kbd> at any time while in the system you can read this document.
+- LARBS has a built-in readme document and list of all the many efficient keybindings that you can read [here](larbs-dwm.pdf). By pressing <kbd>super + F1</kbd> at any time while in the system you can read this document.
 - The many illustrative videos on [Luke's YouTube channel](https://youtube.com/lukesmithxyz), some of which are easily watchable in LARBS by pressing <kbd>super + F2</kbd>.
 - The documentation on the <a href="https://github.com/lukesmithxyz/voidrice">Github</a> page.
 - By just installing it and diving in!
