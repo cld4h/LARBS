@@ -16,18 +16,12 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Updating website.
-      uses: appleboy/ssh-action@master
-      with:
-        host: larbs.xyz
-        username: larbs
-        key: ${{ secrets.larbs_ssh }}
-        passphrase: ${{ secrets.larbs_pass }}
-        port: 22
-        script: |
-          cd larbs-src
-          git stash
-          git pull --force origin master
-          hugo -s . -t /var/www/lugo -d ~/larbs --cacheDir ~/hugocache
+    - name: hugo-deploy-with-asciidoctor
+      uses: cld4h/hugo-deploy@v1.2
+      env:
+        DEPLOY_REPO: cld4h/LARBS
+        DEPLOY_BRANCH: build
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        TZ: Asia/Shanghai
