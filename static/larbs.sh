@@ -413,5 +413,9 @@ grep -q "INPUT_METHOD" /etc/environment || echo "INPUT_METHOD=fcitx5" >> /etc/en
 # For kitty
 # grep -q "GLFW_IM_MODULE" /etc/environment || echo "GLFW_IM_MODULE=ibus" >> /etc/environment
 
+# Allow users in the video grout to change backlight
+printf 'ACTION=="add", SUBSYSTEM=="backlight", RUN+="/bin/chgrp video $sys$devpath/brightness", RUN+="/bin/chmod g+w $sys$devpath/brightness"' > /etc/udev/rules.d/backlight.rules
+usermod -a -G video $name
+
 # Last message! Install complete!
 finalize
