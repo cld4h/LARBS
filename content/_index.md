@@ -25,7 +25,7 @@ Instead, you realize how easy it is to set things up automatically yourself.
 On a fresh installation of Arch Linux or Artix Linux, run the following:
 
 ```fish
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/cld4h/LARBS/master/static/larbs.sh
 sh larbs.sh
 ```
 
