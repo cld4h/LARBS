@@ -305,7 +305,8 @@ done
 
 whiptail --title "LARBS Installation" \
 	--infobox "Synchronizing system time to ensure successful and secure installation of software..." 8 70
-ntpd -q -g >/dev/null 2>&1
+#ntpd -q -g >/dev/null 2>&1
+timedatectl set-ntp 1
 
 adduserandpass || error "Error adding username and/or password."
 
