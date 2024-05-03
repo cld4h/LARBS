@@ -1,0 +1,371 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LARBS</title><link>https://cld4h.github.io/LARBS/</link><description>Recent content on LARBS</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 11:37:10 -0500</lastBuildDate><atom:link href="https://cld4h.github.io/LARBS/index.xml" rel="self" type="application/rss+xml"/><item><title>Newsboat</title><link>https://cld4h.github.io/LARBS/newsboat/</link><pubDate>Thu, 19 Jan 2023 11:37:10 -0500</pubDate><guid>https://cld4h.github.io/LARBS/newsboat/</guid><description>&lt;p>Newsboat is an RSS-reader.&lt;/p>
+&lt;p>A normal person asks: &amp;ldquo;What is an RSS reader?&amp;rdquo;&lt;/p>
+&lt;p>It&amp;rsquo;s a way to follow sites and social media updates without needing social media.&lt;/p>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>&lt;code>man newsboat&lt;/code>&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + shift + n&lt;/kbd> or run &lt;code>newsboat&lt;/code> in the terminal.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;ul>
+&lt;li>&lt;kbd>j&lt;/kbd>/&lt;kbd>k&lt;/kbd> &amp;ndash; move up and down.&lt;/li>
+&lt;li>&lt;kbd>enter&lt;/kbd> &amp;ndash; enter feed or article.&lt;/li>
+&lt;li>&lt;kbd>q&lt;/kbd> &amp;ndash; return to previous screen or quit.&lt;/li>
+&lt;li>&lt;kbd>h&lt;/kbd>/&lt;kbd>l&lt;/kbd> &amp;ndash; open feed or return (same as &lt;kbd>q&lt;/kbd> and &lt;kbd>enter&lt;/kbd>).&lt;/li>
+&lt;li>&lt;kbd>a&lt;/kbd> &amp;ndash; mark as read.&lt;/li>
+&lt;li>&lt;kbd>n&lt;/kbd> &amp;ndash; go to next unread.&lt;/li>
+&lt;li>&lt;kbd>A&lt;/kbd> &amp;ndash; mark all as read.&lt;/li>
+&lt;li>&lt;kbd>,,&lt;/kbd> &amp;ndash; open the main link of an article. (Usually opens in a browser, or if a video, will play the video in &lt;a href="mpv">mpv&lt;/a>.)&lt;/li>
+&lt;li>&lt;kbd>u&lt;/kbd>/&lt;kbd>d&lt;/kbd> &amp;ndash; page up and down.&lt;/li>
+&lt;li>&lt;kbd>g&lt;/kbd>/&lt;kbd>G&lt;/kbd> &amp;ndash; go to top or bottom of screen.&lt;/li>
+&lt;/ul>
+&lt;p>To follow a visible link, use the &lt;a href="st">st&lt;/a> binding &lt;kbd>alt + l&lt;/kbd>, or to just copy it, &lt;kbd>alt + k&lt;/kbd>.&lt;/p>
+&lt;h2 id="files">Files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.config/newsboat/urls&lt;/code> &amp;ndash; the file holding your RSS feeds. Add URLs here to make them appear in newsboat. Open itquickly by typing &lt;code>cfu&lt;/code> in the terminal.&lt;/li>
+&lt;li>&lt;code>~/.config/newsboat/config&lt;/code> &amp;ndash; the general newsboat config. Type &lt;code>cfn&lt;/code> in the terminal. You can set granulated coloring and effects here, as well as change key bindings.&lt;/li>
+&lt;li>&lt;code>~/.local/bin/linkhandler&lt;/code> &amp;ndash; the opener file used by newsboat for dealing with URLs with the &lt;kbd>,,&lt;/kbd> binding. This can be modified as needed. By default, it opens normal URLs in a browser, opens videos with &lt;a href="mpv">mpv&lt;/a>, downloads audio/podcast files and downloads and opens images with &lt;a href="sxiv">sxiv&lt;/a>, etc.&lt;/li>
+&lt;/ul>
+&lt;h2 id="links">Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://newsboat.org/">newsboat website&lt;/a>&lt;/li>
+&lt;li>MIT License&lt;/li>
+&lt;/ul></description></item><item><title>htop</title><link>https://cld4h.github.io/LARBS/htop/</link><pubDate>Thu, 19 Jan 2023 10:38:41 -0500</pubDate><guid>https://cld4h.github.io/LARBS/htop/</guid><description>&lt;p>htop is an absolutely useless program.&lt;/p>
+&lt;figure class="normal">&lt;a href="https://cld4h.github.io/LARBS/pix/htop.png">&lt;img src="https://cld4h.github.io/LARBS//pix/htop.png">&lt;/a>&lt;/figure>
+&lt;h2 id="what-is-htop">What is htop?&lt;/h2>
+&lt;p>htop is theoretically a system-monitor program, but no one uses it for that.&lt;/p>
+&lt;p>What it actually is is a program that produces a bunch of smart-looking and multicolor lines and shapes with important-seeming process names.&lt;/p>
+&lt;p>This is the ultimate weapon against impressionable normies if you want to impress them by pretending to be some kind of hacker.&lt;/p>
+&lt;p>htop is only found (1) in screencaps to show your &amp;ldquo;set-up&amp;rdquo; to other losers on the internet and (2) when a normie girl is nearby to hopefully goad her into a conversation you were otherwise too awkward to initiate yourself.&lt;/p>
+&lt;h2 id="you-wouldnt-do-it-in-windows">You wouldn&amp;rsquo;t do it in Windows.&lt;/h2>
+&lt;p>Look at how stupid this image looks.&lt;/p>
+&lt;figure class="normal">&lt;a href="https://cld4h.github.io/LARBS/pix/windows-htop.jpg">&lt;img src="https://cld4h.github.io/LARBS//pix/windows-htop.jpg">&lt;/a>&lt;/figure>
+&lt;p>&amp;ldquo;Oh what, he just pulled up some command prompts, a file browser and a system monitor? Why? Is he actually doing something with those empty prompts? Why does he need a system monitor filling up a third of his screen for this alleged work he&amp;rsquo;s doing?&amp;rdquo;&lt;/p>
+&lt;p>All sensible questions that a person naturally asks when he sees the familiar world of Windows.&lt;/p>
+&lt;p>Yet for newfriends who HECKIN&amp;rsquo; LOVE GNU/LINUX, for what ever reason, they do the same stuff, take a screencap of it and post it.&lt;/p>
+&lt;p>This is only possible because even of those people use use GNU/Linux, even in a fancy tiling window manager, so many of them are still struggling to figure things out, so a couple htop windows and a silly file manager open and the brain degrades to a lower, confusion-induced operating level which makes it fawn at the mystery of it.&lt;/p>
+&lt;p>I mean really&amp;mdash;obviously I think tiling window managers are useful, that&amp;rsquo;s what LARBS is about, but when you are &lt;em>actually working on something&lt;/em> do you &lt;em>ever&lt;/em> have more than three windows tiled on the same workspace at one time?&lt;/p>
+&lt;p>Seriously, for most things, I have one thing per workspace unless another prompt is strictly visually necessary. Three or &lt;em>maybe&lt;/em> four is definitely the maximum.&lt;/p>
+&lt;p>So it goes without saying that people who pull up seven windows and some pics of anime girls baking pancakes are not doing anything with their computers looking like that.&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Run &lt;code>htop&lt;/code> by typing it in the terminal.
+I even bound it to &lt;kbd>super + shift + r&lt;/kbd> just for fun because I wasn&amp;rsquo;t using that key for anything important.&lt;/p></description></item><item><title>Zsh</title><link>https://cld4h.github.io/LARBS/zsh/</link><pubDate>Thu, 19 Jan 2023 10:24:07 -0500</pubDate><guid>https://cld4h.github.io/LARBS/zsh/</guid><description>&lt;p>zsh is the shell used by LARBS.&lt;/p>
+&lt;h2 id="files">Files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.config/zsh/.zshrc&lt;/code> &amp;ndash; the main zshrc file. Run &lt;code>cfz&lt;/code> in the terminal for quick access.&lt;/li>
+&lt;li>&lt;code>~/.config/shell/aliasrc&lt;/code> &amp;ndash; a separate file called by the zshrc for loading aliases that might be shared in common with bash or other shells. This is kept separate merely for organizational purposes. You can add aliases to this file or the zsh file. Run &lt;code>cfa&lt;/code> for quick access. By default, it mostly sets aliases that will yield more colorful output and verbosity in interactive shells.&lt;/li>
+&lt;li>&lt;code>~/.zprofile&lt;/code> &amp;ndash; the profile file, where environmental variables are set. This is only run on login. Do not put your custom settings here unless you know what you are doing.&lt;/li>
+&lt;li>&lt;code>~/.config/shell/inputrc&lt;/code> &amp;ndash; This file shouldn&amp;rsquo;t be edited, but contains special settings for the vi-mode in zsh that allow you to clear the screen with &lt;kbd>ctrl + l&lt;/kbd> and also to have a different cursor for each mode: a thick bar for normal mode and a thin line for insert.&lt;/li>
+&lt;/ul>
+&lt;h2 id="little-features">Little features&lt;/h2>
+&lt;ul>
+&lt;li>Press &lt;kbd>ctrl + o&lt;/kbd> to open a special instance of &lt;a href="https://cld4h.github.io/LARBS/lf">lf&lt;/a>. It works like normal lf, but if you press &lt;kbd>q&lt;/kbd> to quit, zsh will automatically change directory to the directory you ended up in. Useful to quickly navigate directories without typing.&lt;/li>
+&lt;li>&lt;kbd>ctrl + f&lt;/kbd> &amp;ndash; use &lt;code>fzf&lt;/code> to search for a file deep in this directory structure. Selecting it will change the directory to where it is.&lt;/li>
+&lt;li>&lt;kbd>ctrl + a&lt;/kbd> &amp;ndash; open an instance of &lt;code>bc&lt;/code> to do some arithmetic if needed. Press &lt;kbd>ctrl + d&lt;/kbd> to exit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="source-code">Source code&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://zsh.sourceforge.io/">website&lt;/a>&lt;/li>
+&lt;li>Permissive license with copyleft components&lt;/li>
+&lt;/ul></description></item><item><title>st</title><link>https://cld4h.github.io/LARBS/st/</link><pubDate>Thu, 19 Jan 2023 10:02:07 -0500</pubDate><guid>https://cld4h.github.io/LARBS/st/</guid><description>&lt;p>st (the simple terminal) is a simple terminal.&lt;/p>
+&lt;figure class="normal">&lt;a href="https://cld4h.github.io/LARBS/pix/st.png">&lt;img src="https://cld4h.github.io/LARBS//pix/st.png">&lt;/a>&lt;figcaption>Doesn&amp;#39;t get simpler than this.&lt;/figcaption>&lt;/figure>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + enter&lt;/kbd> for a basic terminal window.&lt;/p>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>&lt;code>man st&lt;/code>&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;ul>
+&lt;li>&lt;kbd>alt + j/k&lt;/kbd>/&lt;kbd>alt + Up/Down&lt;/kbd>/&lt;kbd>alt + mouse wheel&lt;/kbd> &amp;ndash; scroll up or down in the terminal history.&lt;/li>
+&lt;li>&lt;kbd>alt + u/d&lt;/kbd>/&lt;kbd>alt + pageup/pagedown&lt;/kbd> &amp;ndash; faster scroll.&lt;/li>
+&lt;li>&lt;kbd>alt + shift + j/k&lt;/kbd> &amp;ndash; decrease or increase font size.&lt;/li>
+&lt;li>&lt;kbd>alt + c&lt;/kbd> &amp;ndash; copy selected text to clipboard.&lt;/li>
+&lt;li>&lt;kbd>shift + insert&lt;/kbd> &amp;ndash; paste clipboard contents.&lt;/li>
+&lt;li>&lt;kbd>alt + l&lt;/kbd> &amp;ndash; &lt;strong>open a link/URL&lt;/strong>: pulls all URLs from terminal and allows you to pick one to open via dmenu.&lt;/li>
+&lt;li>&lt;kbd>alt + y&lt;/kbd> &amp;ndash; copy a link/URL: same as above, but copies the URL.&lt;/li>
+&lt;li>&lt;kbd>alt + o&lt;/kbd> &amp;ndash; &lt;strong>copy the output from a recent command.&lt;/strong>&lt;/li>
+&lt;li>&lt;kbd>alt + a/s&lt;/kbd> &amp;ndash; decrease/increase transparency.&lt;/li>
+&lt;/ul>
+&lt;h2 id="readline">Readline&lt;/h2>
+&lt;p>Note that readline will use vim bindings by default.
+Technically this is not part of &lt;code>st&lt;/code>, but people get it confused.
+If you don&amp;rsquo;t like it, remove the &lt;code>bindkey -v&lt;/code> line from the &lt;a href="https://cld4h.github.io/LARBS/zsh">zsh&lt;/a> configuration.&lt;/p>
+&lt;h2 id="source-code">Source Code&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/lukesmithxyz/st">st for LARBS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://st.suckless.org">original st at suckless&amp;rsquo;s website&lt;/a>&lt;/li>
+&lt;li>MIT License&lt;/li>
+&lt;/ul></description></item><item><title>dwm</title><link>https://cld4h.github.io/LARBS/dwm/</link><pubDate>Thu, 19 Jan 2023 09:55:19 -0500</pubDate><guid>https://cld4h.github.io/LARBS/dwm/</guid><description>&lt;p>dwm (the dynamic window manager) is the backbones of LARBS and its graphical environment.&lt;/p>
+&lt;h2 id="using">Using&lt;/h2>
+&lt;p>LARBS has built-in documentation for dwm, which can be obtain by pressing &lt;code>super + F1&lt;/code> or by clicking the small ❓ in the top right corner.&lt;/p>
+&lt;p>If you&amp;rsquo;re viewing this online, &lt;a href="https://cld4h.github.io/LARBS/larbs-dwm.pdf">click here to see the pdf&lt;/a> which is a full guide to dwm.&lt;/p>
+&lt;p>That should be your guide for upping your dwm power-level, but here are some generalities:&lt;/p>
+&lt;ul>
+&lt;li>dwm automatically tiles windows by the pattern of your choosing, and most active windows are given visual preference. You can turn off tiling if you need, or float individual windows.&lt;/li>
+&lt;li>Everything is a keybinding, including all the main programs used in LARBS. The goal is to minimize the distance between mind and matter, so that computing becomes reflexive: you can think up an email to send, and have it sent in 10 seconds.&lt;/li>
+&lt;/ul>
+&lt;h2 id="source-code">Source code&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/lukesmithxyz/dwm">dwm for LARBS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://dwm.suckless.org">original build of dwm&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>dwmblocks</title><link>https://cld4h.github.io/LARBS/dwmblocks/</link><pubDate>Thu, 19 Jan 2023 09:15:59 -0500</pubDate><guid>https://cld4h.github.io/LARBS/dwmblocks/</guid><description>&lt;p>dwmblocks is the statusbar command which hosts many customizable and extensible modules.&lt;/p>
+&lt;figure class="normal">&lt;a href="https://cld4h.github.io/LARBS/pix/dwmblocks.png">&lt;img src="https://cld4h.github.io/LARBS//pix/dwmblocks.png">&lt;/a>&lt;figcaption>dwmblocks and its weather forecast, doppler radar and Bitcoin price monitors open.&lt;/figcaption>&lt;/figure>
+&lt;h2 id="using">Using&lt;/h2>
+&lt;p>dwmblocks runs automatically when dwm starts, appearing as many modules in the top right, and will update as needed.&lt;/p>
+&lt;p>Right click on the active modules for an informational message about them.&lt;/p>
+&lt;p>Left and middle clicking, and sometime scrolling, often have some functional reaction, like bringing up a relevant program.&lt;/p>
+&lt;h2 id="modules">Modules&lt;/h2>
+&lt;p>There are modules for time and date, laptop battery, internet and volume that should be self-explanatory.&lt;/p>
+&lt;p>There are also modules a three-day weather forecast from &lt;a href="https://wttr.in">wttr.in&lt;/a> and the module with a 🌅 even allows you to view a Doppler RADAR of your chosen location.&lt;/p>
+&lt;p>There are other user-submitted modules, for IP locations, keyboard selection, memory and CPU monitoring and more.&lt;/p>
+&lt;h2 id="files">Files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.local/src/dwmblocks/&lt;/code> &amp;ndash; the source code.&lt;/li>
+&lt;li>&lt;code>~/.local/src/dwmblocks/config.h&lt;/code> &amp;ndash; where modules can be added. You can open this file automatically by shift right clicking on the status bar.&lt;/li>
+&lt;li>&lt;code>~/.local/bin/statusbar/&lt;/code> &amp;ndash; the scripts made for the statusbar. Note that not all are activated by default and you can add new ones as desired. You can also open an individual module&amp;rsquo;s script by shift left clicking on the module.&lt;/li>
+&lt;/ul>
+&lt;h2 id="signals-and-updating">Signals and updating&lt;/h2>
+&lt;p>In the &lt;code>config.h&lt;/code> file, you will notice that each statusbar module should have a unique &amp;ldquo;Update Signal.&amp;rdquo;
+For modules that need to update at set events, you&lt;/p>
+&lt;p>For example, the &lt;code>sb-volume&lt;/code> module has the update signal &lt;code>10&lt;/code> by default. If we manually run the command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fish" data-lang="fish">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">wpctl&lt;/span> set-volume @DEFAULT_AUDIO_SINK@ &lt;span style="color:#ae81ff">3&lt;/span>%+
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This happens to increase the volume, but the module &lt;em>does not&lt;/em> update with the new volume by default.
+We also want to signal to dwmblocks to update this module by sending it signal &lt;code>10&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fish" data-lang="fish">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">pkill&lt;/span> &lt;span style="color:#a6e22e">-RTMIN&lt;/span>+&lt;span style="color:#ae81ff">10&lt;/span> dwmblocks
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will now update the module.
+Although, &lt;code>pkill&lt;/code> is slightly slower than the command &lt;code>kill&lt;/code>, which can make a big difference if we are making semi-frequent changes in a script. To signal with &lt;code>kill&lt;/code>, we must send the value &lt;strong>plus 34&lt;/strong>.
+Just remember 34.&lt;/p>
+&lt;p>So &lt;code>10 + 34 = 44&lt;/code>, so we use this command:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fish" data-lang="fish">&lt;span style="display:flex;">&lt;span>kill -&lt;span style="color:#ae81ff">44&lt;/span> $(&lt;span style="color:#a6e22e">pidof&lt;/span> dwmblocks&lt;span style="color:#f92672">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>(Note also we send the signal to the process ID of dwmblocks as well.)&lt;/p>
+&lt;h2 id="source-code">Source code&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/lukesmithxyz/dwmblocks">The build for LARBS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/torrinfail/dwmblocks">the original dwmblocks&lt;/a>&lt;/li>
+&lt;li>ISC License.&lt;/li>
+&lt;/ul></description></item><item><title>Librewolf</title><link>https://cld4h.github.io/LARBS/librewolf/</link><pubDate>Thu, 19 Jan 2023 08:51:04 -0500</pubDate><guid>https://cld4h.github.io/LARBS/librewolf/</guid><description>&lt;p>Librewolf is a version of Firefox with Mozilla&amp;rsquo;s odious spyware removed.&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + w&lt;/kbd> or run &lt;code>librewolf&lt;/code> in dmenu.&lt;/p>
+&lt;h2 id="improvements-to-librewolf-in-larbs">Improvements to Librewolf in LARBS&lt;/h2>
+&lt;h3 id="arkenfoxs-userjs">Arkenfox&amp;rsquo;s user.js&lt;/h3>
+&lt;p>With LARBS, &lt;a href="https://github.com/arkenfox/user.js">Arkenfox&amp;rsquo;s user.js&lt;/a> is installed by default.
+This is a set of default settings that set settings that increase user privacy and decrease the possibility of fingerprinting.&lt;/p>
+&lt;h3 id="other-tweaks">Other tweaks&lt;/h3>
+&lt;p>Other annoying Firefox features have been disabled, such as push notifications and the pocket.&lt;/p>
+&lt;p>With any of these settings or the Arkenfox ones, they can be changed in &lt;code>about:config&lt;/code>.&lt;/p>
+&lt;h3 id="add-ons">Add-ons&lt;/h3>
+&lt;p>Several add-ons come installed by default.
+Note that they can be immediately enabled by the user in the top right corner, but might not come enabled.&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/">uBlock Origin&lt;/a> &amp;ndash; ad-blocker.&lt;/li>
+&lt;li>&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/">Decentraleyes&lt;/a> &amp;ndash; third-party tracking protection.&lt;/li>
+&lt;li>&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/istilldontcareaboutcookies/">I still don&amp;rsquo;t care about cookies&lt;/a> &amp;ndash; removes those stupid cookie notifications that the EU forced on us.&lt;/li>
+&lt;li>&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/vim-vixen/">Vim Vixen&lt;/a> &amp;ndash; vim key-bindings.&lt;/li>
+&lt;/ul></description></item><item><title>Abook</title><link>https://cld4h.github.io/LARBS/abook/</link><pubDate>Tue, 17 Jan 2023 11:54:20 -0500</pubDate><guid>https://cld4h.github.io/LARBS/abook/</guid><description>&lt;p>The address book.&lt;/p>
+&lt;p>Why let Google or Apple keep your contacts? Keep an archive on your computer and export them when you need them.
+Abook is a minimal and local store of your contacts, including emails, phone numbers, addressess and whatever you might need.
+Abook integrates with neomutt&amp;rsquo;s autofill as well and you can script more functionality into it.&lt;/p>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>&lt;code>man abook&lt;/code>&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + shift + e&lt;/kbd> or run &lt;code>abook&lt;/code> in the terminal.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;p>Thankfully, abook is self-documenting: press &lt;kbd>?&lt;/kbd> at any time to see its binds. Here are some of the most common:&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>a&lt;/kbd> &amp;ndash; add a contact.&lt;/li>
+&lt;li>&lt;kbd>j&lt;/kbd>/&lt;kbd>k&lt;/kbd> &amp;ndash; move up and down.&lt;/li>
+&lt;li>&lt;kbd>enter&lt;/kbd> &amp;ndash; enter a contact.&lt;/li>
+&lt;li>&lt;kbd>h&lt;/kbd>/&lt;kbd>l&lt;/kbd> &amp;ndash; (on a contact page) move from tab to tab.&lt;/li>
+&lt;li>&lt;kbd>0-9&lt;/kbd> &amp;ndash; (on a contact page) edit/change contact information in a field.&lt;/li>
+&lt;li>&lt;kbd>d&lt;/kbd> &amp;ndash; delete a contact.&lt;/li>
+&lt;li>&lt;kbd>D&lt;/kbd> &amp;ndash; duplicate a contact.&lt;/li>
+&lt;li>&lt;kbd>S&lt;/kbd> &amp;ndash; sort existing contacts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extending">Extending&lt;/h2>
+&lt;dl>
+&lt;dt>Using with email&lt;/dt>
+&lt;dd>abook works out of the box with &lt;a href="https://cld4h.github.io/LARBS/neomutt">neomutt&lt;/a>. In neomutt, when you compose a new message, if you press tab, neomutt will automatically tab-complete from your abook contacts.&lt;/dd>
+&lt;dt>Using telephone numbers&lt;/dt>
+&lt;dd>There are some services that offer computer-based calling. Since abook can export a list of contacts with data, you can use programs like dmenu to select one you want:&lt;/dd>
+&lt;/dl>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fish" data-lang="fish">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">abook&lt;/span> &lt;span style="color:#a6e22e">--convert&lt;/span> &lt;span style="color:#a6e22e">--infile&lt;/span> ~/.abook/addressbook &lt;span style="color:#a6e22e">--outformatstr&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;\!{name} {mobile}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">--outformat&lt;/span>&lt;span style="color:#f92672">=&lt;/span>custom &lt;span style="color:#f92672">|&lt;/span> &lt;span style="color:#a6e22e">dmenu&lt;/span> &lt;span style="color:#a6e22e">-i&lt;/span> &lt;span style="color:#a6e22e">-l&lt;/span> &lt;span style="color:#ae81ff">30&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This can easily be integrated into a script.&lt;/p>
+&lt;h2 id="links">Links&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://abook.sourceforge.io/">website&lt;/a>&lt;/li>
+&lt;li>GPLv2&lt;/li>
+&lt;/ul></description></item><item><title>mpv</title><link>https://cld4h.github.io/LARBS/mpv/</link><pubDate>Tue, 17 Jan 2023 11:39:29 -0500</pubDate><guid>https://cld4h.github.io/LARBS/mpv/</guid><description>&lt;p>mpv is a video-player so simple, it really just shows the video.
+It is controlled by the keyboard and only shows even the progress bar and other interfaces when needed.&lt;/p>
+&lt;p>It is also used in LARBS to play single audio files if &lt;a href="https://cld4h.github.io/LARBS/mpd">mpd&lt;/a> is not used.&lt;/p>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>&lt;code>man mpv&lt;/code>&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>mpv is opened automatically when you select a video or audio file to open from &lt;a href="https://cld4h.github.io/LARBS/lf">lf&lt;/a> or another program.
+Obviously you can run it from the command line by running &lt;code>mpv filename.mp4&lt;/code>, etc.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;p>These are custom bindings for ease:&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>h&lt;/kbd>/&lt;kbd>l&lt;/kbd> &amp;ndash; jump back/foward 10 seconds.&lt;/li>
+&lt;li>&lt;kbd>j&lt;/kbd>/&lt;kbd>k&lt;/kbd> &amp;ndash; jump back/foward 60 seconds.&lt;/li>
+&lt;li>&lt;kbd>space&lt;/kbd> &amp;ndash; toggle pause.&lt;/li>
+&lt;li>&lt;kbd>S&lt;/kbd> &amp;ndash; toggle subtitles.&lt;/li>
+&lt;li>&lt;kbd>o&lt;/kbd> &amp;ndash; briefly view progress bar and time.&lt;/li>
+&lt;li>&lt;kbd>O&lt;/kbd> &amp;ndash; toggle time visibility.&lt;/li>
+&lt;li>&lt;kbd>i&lt;/kbd> &amp;ndash; show file and video information.&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration">Configuration&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.config/mpv/input.conf&lt;/code> &amp;ndash; key bindings.&lt;/li>
+&lt;li>&lt;code>~/.config/mpv/&lt;/code> &amp;ndash; many other plugins can be added to mpv.&lt;/li>
+&lt;/ul>
+&lt;h2 id="other">Other&lt;/h2>
+&lt;ul>
+&lt;li>If you download films, I recommend installing the program &lt;code>subdl&lt;/code>, which you can run on a movie file and it will automatically check online for subtitle files. Give it the &lt;code>-i&lt;/code> option to choose from the closest matches if the first result is slightly off.&lt;/li>
+&lt;li>The LARBS binding &lt;kbd>super + shift + P&lt;/kbd> will not only pause you music played in &lt;code>mpd&lt;/code>, but also all audio/video instances of &lt;code>mpv&lt;/code>.&lt;/li>
+&lt;li>Press &lt;kbd>super + F11&lt;/kbd> to see your webcam. This uses an instance of &lt;code>mpv&lt;/code> as well.&lt;/li>
+&lt;/ul>
+&lt;p>GPLv2&lt;/p></description></item><item><title>Ncmpcpp</title><link>https://cld4h.github.io/LARBS/ncmpcpp/</link><pubDate>Mon, 16 Jan 2023 22:24:03 -0500</pubDate><guid>https://cld4h.github.io/LARBS/ncmpcpp/</guid><description>&lt;p>ncmpcpp is the main music player that interacts with the &lt;a href="https://cld4h.github.io/LARBS/mpd">music player daemon&lt;/a>.&lt;/p>
+&lt;p>ncmpcpp stands for &lt;em>NCurses Music Player Client ++&lt;/em>.
+Yes. I&amp;rsquo;m sorry it&amp;rsquo;s unpronounceable, but it&amp;rsquo;s the best at what it does&amp;hellip;&lt;/p>
+&lt;figure class="normal">&lt;img src="https://cld4h.github.io/LARBS//pix/ncmpcpp-02.png">&lt;/figure>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + m&lt;/kbd>, or type &lt;code>ncmpcpp&lt;/code> in the terminal.&lt;/p>
+&lt;p>For ncmpcpp to run, you should have &lt;a href="https://cld4h.github.io/LARBS/mpd">mpd&lt;/a> set up and have audio files in your mpd directory.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;p>Firstly, ncmpcpp has many different screens accessible through the number keys &lt;kbd>1&lt;/kbd> to &lt;kbd>8&lt;/kbd>. The most important of these have also been mapped to mneumonic letter keys:&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>m&lt;/kbd> &amp;ndash; main music library (press key again to alternate album/album artist views).&lt;/li>
+&lt;li>&lt;kbd>v&lt;/kbd> &amp;ndash; visualizer.&lt;/li>
+&lt;li>&lt;kbd>f&lt;/kbd> &amp;ndash; library by directory structure.&lt;/li>
+&lt;li>&lt;kbd>t&lt;/kbd> &amp;ndash; tagger.&lt;/li>
+&lt;li>&lt;kbd>s&lt;/kbd> &amp;ndash; detailed search.&lt;/li>
+&lt;li>&lt;kbd>1&lt;/kbd> &amp;ndash; current playlist.&lt;/li>
+&lt;/ul>
+&lt;figure class="normal">&lt;img src="https://cld4h.github.io/LARBS//pix/ncmpcpp-03.png">&lt;/figure>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;kbd>h&lt;/kbd>/&lt;kbd>j&lt;/kbd>/&lt;kbd>k&lt;/kbd>/&lt;kbd>l&lt;/kbd> &amp;ndash; navigate the music library view or select directories and songs.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;kbd>enter&lt;/kbd> &amp;ndash; add selected to playlist and play now.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;kbd>space&lt;/kbd> &amp;ndash; add to end of playlist.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;kbd>.&lt;/kbd> &amp;ndash; show/download lyrics.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration">Configuration&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.config/ncmpcpp/config&lt;/code> &amp;ndash; main file controlling formatting and colors and other details.&lt;/li>
+&lt;li>&lt;code>~/.config/ncmpcpp/bindings&lt;/code> &amp;ndash; file customizing key bindings.&lt;/li>
+&lt;/ul></description></item><item><title>Neomutt</title><link>https://cld4h.github.io/LARBS/neomutt/</link><pubDate>Mon, 16 Jan 2023 16:15:58 -0500</pubDate><guid>https://cld4h.github.io/LARBS/neomutt/</guid><description>&lt;p>Neomutt is a fast terminal-based email client.&lt;/p>
+&lt;figure class="normal">&lt;img src="https://cld4h.github.io/LARBS//pix/neomutt.png">&lt;/figure>
+&lt;h2 id="setup-with-mutt-wizard">Setup with Mutt Wizard&lt;/h2>
+&lt;p>Use &lt;a href="https://muttwizard.com">mutt-wizard&lt;/a> (&lt;code>mw&lt;/code>) to add mail accounts. This is already installed on LARBS. Added accounts will be accessible from neomutt. To add your first account, just run the following:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fish" data-lang="fish">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">mw&lt;/span> &lt;span style="color:#a6e22e">-a&lt;/span> your@email.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Once you have installed accounts, sync them with the command &lt;code>mailsync&lt;/code>, or by pressing &lt;kbd>super + F8&lt;/kbd>.&lt;/p>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Press &lt;kbd>super + e&lt;/kbd> or type &lt;code>neomutt&lt;/code> manually in the terminal.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;p>Note also that neomutt automatically documents itself: you can press &lt;kbd>?&lt;/kbd> at any time in the program and you will see a list of all shortcuts for the screen you are on.&lt;/p>
+&lt;h3 id="in-the-mail-index">In the mail index&amp;hellip;&lt;/h3>
+&lt;ul>
+&lt;li>&lt;kbd>j&lt;/kbd>, &lt;kbd>k&lt;/kbd> &amp;ndash; move up and down in mail.&lt;/li>
+&lt;li>&lt;kbd>l&lt;/kbd> or &lt;kbd>enter&lt;/kbd> &amp;ndash; open mail, or return to index.&lt;/li>
+&lt;li>&lt;kbd>h&lt;/kbd> or &lt;kbd>esc&lt;/kbd> &amp;ndash; return from mail to index.&lt;/li>
+&lt;li>&lt;kbd>m&lt;/kbd> &amp;ndash; compose new mail.&lt;/li>
+&lt;li>&lt;kbd>r&lt;/kbd> &amp;ndash; reply to selected mail.&lt;/li>
+&lt;li>&lt;kbd>R&lt;/kbd> &amp;ndash; reply all to selected mail.&lt;/li>
+&lt;li>&lt;kbd>ctrl-j&lt;/kbd>/&lt;kbd>ctrl-k&lt;/kbd> &amp;ndash; move up or down in the sidebar.&lt;/li>
+&lt;li>&lt;kbd>ctrl-o&lt;/kbd> &amp;ndash; open the box highlighted in the sidebar.&lt;/li>
+&lt;li>&lt;kbd>space&lt;/kbd> &amp;ndash; select mail. (See below).&lt;/li>
+&lt;/ul>
+&lt;p>mutt-wizard automatically sets automatic binds to move to or move mail to other boxes. Press one of these keys:&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>g&lt;/kbd> &amp;ndash; go to&amp;hellip;&lt;/li>
+&lt;li>&lt;kbd>M&lt;/kbd> &amp;ndash; move selected mail to&amp;hellip;&lt;/li>
+&lt;li>&lt;kbd>C&lt;/kbd> &amp;ndash; copy selected mail to&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>And then follow it with one of these keys:&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>i&lt;/kbd> &amp;ndash; &amp;hellip;the inbox.&lt;/li>
+&lt;li>&lt;kbd>d&lt;/kbd> &amp;ndash; &amp;hellip;drafts.&lt;/li>
+&lt;li>&lt;kbd>s&lt;/kbd> &amp;ndash; &amp;hellip;the sent box.&lt;/li>
+&lt;li>&lt;kbd>a&lt;/kbd> &amp;ndash; &amp;hellip;the archive.&lt;/li>
+&lt;li>&lt;kbd>j&lt;/kbd> &amp;ndash; &amp;hellip;junk.&lt;/li>
+&lt;/ul>
+&lt;h3 id="with-mail-open">With mail open&amp;hellip;&lt;/h3>
+&lt;p>Some binds above are shared.&lt;/p>
+&lt;ul>
+&lt;li>&lt;kbd>j&lt;/kbd>/&lt;kbd>k&lt;/kbd> &amp;ndash; scroll up and down.&lt;/li>
+&lt;li>&lt;kbd>J&lt;/kbd>/&lt;kbd>K&lt;/kbd> &amp;ndash; next or previous mail.&lt;/li>
+&lt;li>&lt;kbd>v&lt;/kbd> &amp;ndash; view attachments. This can be used for opening annoying HTML ad emails in the browser. You can also save the selected attachment with &lt;kbd>s&lt;/kbd>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="on-the-compose-screen">On the compose screen&amp;hellip;&lt;/h3>
+&lt;ul>
+&lt;li>&lt;kbd>a&lt;/kbd> &amp;ndash; attach a file.&lt;/li>
+&lt;li>&lt;kbd>m&lt;/kbd> &amp;ndash; edit highlighted attachment in text editor.&lt;/li>
+&lt;li>&lt;kbd>S&lt;/kbd> &amp;ndash; choose to sign or encrypt mail (usually with PGP).&lt;/li>
+&lt;li>&lt;kbd>y&lt;/kbd> &amp;ndash; send mail.&lt;/li>
+&lt;/ul>
+&lt;h2 id="configuration">Configuration&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.config/mutt/muttrc&lt;/code> &amp;ndash; main configuration file&lt;/li>
+&lt;li>&lt;code>~/.config/mutt/accounts/&lt;/code> &amp;ndash; where mutt-wizard will put account-specific configuration files, named after your email addresses&lt;/li>
+&lt;li>&lt;code>~/.local/share/mail/&lt;/code> &amp;ndash; where your mail is stored.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extending">Extending&lt;/h2>
+&lt;p>Neomutt is one of the most extensible programs on the planet. I am constantly surprised by what you can do with it. If you are ever bored, yet hungry for efficiency, check out the neomutt and neomuttrc manuals.&lt;/p>
+&lt;p>One nice little thing is how widely aliases can be used. For example, we can add a line like this to our muttrc:&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-muttrc" data-lang="muttrc">alias besties luke@email.com, richard@email.com, linus@email.com
+&lt;/code>&lt;/pre>&lt;p>This aliases the sequence &lt;code>besties&lt;/code> to the following text/email addresses. So we can just type &lt;code>besties&lt;/code> as a recipient of a mail, and the other addresses will be filled in.&lt;/p>
+&lt;p>Note also that neomutt is configured to tab complete contact information stored with &lt;a href="https://cld4h.github.io/LARBS/abook">abook&lt;/a> automatically.&lt;/p>
+&lt;h2 id="documentation">Documentation&lt;/h2>
+&lt;p>&lt;code>man neomutt&lt;/code> or &lt;code>man neomuttrc&lt;/code>.&lt;/p>
+&lt;p>&lt;a href="https://wiki.archlinux.org/title/Mutt">Mutt/Neomutt on the ArchWiki&lt;/a>&lt;/p></description></item><item><title>lf</title><link>https://cld4h.github.io/LARBS/lf/</link><pubDate>Wed, 21 Dec 2022 17:07:04 -0500</pubDate><guid>https://cld4h.github.io/LARBS/lf/</guid><description>&lt;p>lf is the file manager used in LARBS.
+It was original inspired by the program ranger, but unlike ranger, lf is written in Go instead of Python, so is significantly snappier and adds better features for interaction between different lf instances.&lt;/p>
+&lt;figure class="normal">&lt;img src="https://cld4h.github.io/LARBS//pix/lf.png">&lt;figcaption>Note that lf uses ueberzug to produce previews of images, or here, a .pdf.&lt;/figcaption>&lt;/figure>
+&lt;h2 id="running">Running&lt;/h2>
+&lt;p>Run lf by pressing &lt;kbd>super + r&lt;/kbd>, or type &lt;code>lf&lt;/code> manually in the termianl.&lt;/p>
+&lt;h2 id="bindings">Bindings&lt;/h2>
+&lt;ul>
+&lt;li>&lt;kbd>h&lt;/kbd>, &lt;kbd>j&lt;/kbd>, &lt;kbd>k&lt;/kbd> &lt;kbd>l&lt;/kbd> (vim keys) to move around and enter directories and open files.&lt;/li>
+&lt;li>&lt;kbd>g&lt;/kbd>, &lt;kbd>G&lt;/kbd>, &lt;kbd>ctrl-d&lt;/kbd>, &lt;kbd>ctrl-u&lt;/kbd> &amp;ndash; movement like in vim.&lt;/li>
+&lt;li>&lt;kbd>w&lt;/kbd> &amp;ndash; drop into a terminal in the current directory. If you &lt;code>exit&lt;/code> or press &lt;kbd>ctrl-d&lt;/kbd> in the termianl, you will return to &lt;code>lf&lt;/code>.&lt;/li>
+&lt;li>&lt;kbd>ctrl-n&lt;/kbd> &amp;ndash; new directory.&lt;/li>
+&lt;li>&lt;kbd>V&lt;/kbd> &amp;ndash; new file with &lt;code>nvim&lt;/code>.&lt;/li>
+&lt;li>&lt;kbd>space&lt;/kbd> &amp;ndash; select files:
+&lt;ul>
+&lt;li>&lt;kbd>d&lt;/kbd> &amp;ndash; cut files to lf&amp;rsquo;s clipboard.&lt;/li>
+&lt;li>&lt;kbd>y&lt;/kbd> &amp;ndash; yank files to lf&amp;rsquo;s clipboard.&lt;/li>
+&lt;li>&lt;kbd>p&lt;/kbd> &amp;ndash; paste/move copied/cut files.&lt;/li>
+&lt;li>&lt;kbd>C&lt;/kbd> &amp;ndash; copy selected files to a bookmarked directory.&lt;/li>
+&lt;li>&lt;kbd>M&lt;/kbd> &amp;ndash; move selected files to a bookmarked directory.&lt;/li>
+&lt;li>&lt;kbd>Y&lt;/kbd> &amp;ndash; copy text names of selected files to the system clipboard.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Renaming files:
+&lt;ul>
+&lt;li>&lt;kbd>c&lt;/kbd> &amp;ndash; rename the selected file.&lt;/li>
+&lt;li>&lt;kbd>A&lt;/kbd> &amp;ndash; rename the selected file, starting at end.&lt;/li>
+&lt;li>&lt;kbd>a&lt;/kbd> &amp;ndash; rename the selected file, starting after the extension.&lt;/li>
+&lt;li>&lt;kbd>I&lt;/kbd> &amp;ndash; rename the selected file, starting at beginning.&lt;/li>
+&lt;li>&lt;kbd>i&lt;/kbd> &amp;ndash; rename the selected file, starting before extension.&lt;/li>
+&lt;li>&lt;kbd>B&lt;/kbd> &amp;ndash; &lt;strong>bulk rename&lt;/strong>: use vidir to mass edit all files in the directory.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;kbd>s&lt;/kbd> &amp;ndash; sort files by a different metric.&lt;/li>
+&lt;li>&lt;kbd>z&lt;/kbd> &amp;ndash; show extra data or hidden files.&lt;/li>
+&lt;/ul>
+&lt;p>This list is not necessarily exhaustive. See &lt;code>man lf&lt;/code> and the lf configuration file for more.&lt;/p>
+&lt;h2 id="lfs-configuration-files">lf&amp;rsquo;s configuration files&lt;/h2>
+&lt;ul>
+&lt;li>&lt;code>~/.confif/lf/lfrc&lt;/code> &amp;ndash; The main lf configuration.&lt;/li>
+&lt;li>&lt;code>~/.config/lf/scope&lt;/code> &amp;ndash; The file that determines which commands generates previews for files.&lt;/li>
+&lt;/ul>
+&lt;p>The other files in the &lt;code>~/.config/lf/&lt;/code> directory are run automatically when needed.&lt;/p>
+&lt;hr>
+&lt;h2 id="notes">Notes&lt;/h2>
+&lt;p>Notice that &lt;code>alias lf&lt;/code> will tell you that technically you are running the
+wrapper script &lt;code>lfub&lt;/code> when you run &lt;code>lf&lt;/code>. This has to do with &lt;code>ueberzug&lt;/code>, the
+program that generates image previews.&lt;/p></description></item></channel></rss>
